@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :honey_badger do
+# task :ruby_badger do
 #   # Task goes here
 # end
