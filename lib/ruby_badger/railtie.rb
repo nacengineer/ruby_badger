@@ -5,9 +5,6 @@ module RubyBadger
     class Railtie < ::Rails::Railtie
       config.before_configuration do
         ruby_badger_defaults = %w(ruby_badger)
-        if config.action_view.javascript_expansions
-          config.action_view.javascript_expansions[:defaults] |= ruby_badger_defaults
-        end
         if config.action_view.stylesheet_expansions
           config.action_view.stylesheet_expansions[:defaults] |= ruby_badger_defaults
         end
