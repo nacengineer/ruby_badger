@@ -45,5 +45,7 @@ To see what else you can customize, take a look at `ruby_badger.css.scss`.
 # Authors
 
 * David Southard
+* Rob Sanheim
+* Jamie Kite
 
 This project rocks and uses MIT-LICENSE.
