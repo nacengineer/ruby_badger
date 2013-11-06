@@ -1,18 +1,18 @@
-@mixin corner-banner($color: #333) {
+@mixin corner-banner($ruby-badger-color: #333) {
   &.corner-banner.ruby-badger {
       position: absolute;
       left: -52px;
       top: 30px;
       display: block;
       width: 200px;
-      background: $color;
-      background: -moz-linear-gradient(top, $color 0%, darken($color, 20) 100%);
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color), color-stop(100%, darken($color, 20)));
+      background: $ruby-badger-color;
+      background: -moz-linear-gradient(top, $ruby-badger-color 0%, darken($ruby-badger-color, 20) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $ruby-badger-color), color-stop(100%, darken($ruby-badger-color, 20)));
       text-align:center;
       font-size:11px;
       line-height:13px;
       padding:4px 3px 4px 3px;
-      text-shadow: darken($color, 20) 1px 1px 0;
+      text-shadow: darken($ruby-badger-color, 20) 1px 1px 0;
       -webkit-transform: rotate(-45deg);  /* Saf3.1+, Chrome */
       -moz-transform: rotate(-45deg);  /* FF3.5+ */
       -ms-transform: rotate(-45deg);  /* IE9 */
