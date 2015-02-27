@@ -4,7 +4,11 @@ Get a nice, clean badge displaying your Rails Environment or other helpful info.
 
 ![RubyBadger Demo](https://img.skitch.com/20110723-h8iabtcdpb4i64xkgbrwy5kjs.jpg "RubyBadger Demo")
 
-# Usage (requires Rails 4.2 and Bundler > 1.8)
+**Designed for:**
+
+- Rails 4.2
+- Bundler > 1.8
+- ruby > 2.1
 
 Add to your Gemfile:
 
