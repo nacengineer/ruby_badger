@@ -2,7 +2,7 @@
 
 Get a nice, clean badge displaying your Rails Environment or other helpful info.  Want to display last deploy date?  Or maybe the status of some app wide settings?  Throw it in RubyBadger!  He just doesn't care!
 
-![RubyBadger Demo](https://img.skitch.com/20110723-h8iabtcdpb4i64xkgbrwy5kjs.jpg "RubyBadger Demo")
+This is my fork/gem of [honey_badger](https://github.com/rsanheim/honey_badger) gem. This exists because honey_badger has gone dormant and hasn't been patched in many years. Although this one is not an actively changing gem, Pull requests are accepted.  
 
 # Usage (requires Rails 4.2 and Bundler > 1.8)
 
