@@ -2,7 +2,7 @@
 
 Get a nice, clean badge displaying your Rails Environment or other helpful info.  Want to display last deploy date?  Or maybe the status of some app wide settings?  Throw it in RubyBadger!  He just doesn't care!
 
-This is my fork/gem of [honey_badger](https://github.com/rsanheim/honey_badger) gem. This exists because honey_badger has gone dormant and hasn't been patched in many years. Although this one is not an actively changing gem, Pull requests are accepted.  
+This is my fork/gem of [honey_badger](https://github.com/rsanheim/honey_badger) gem. This exists because honey_badger has gone dormant and hasn't been patched in many years. Although this one is not an actively changing gem, Pull requests are accepted.
 
 # Usage (requires Rails 4.2 and Bundler > 1.8)
 
@@ -21,6 +21,11 @@ If you want to display something other than the current environment name, just p
 Or pass in an array to display more than one interesting fact in your badge (each will be displayed on its own line):
 
     <%= ruby_badger ["eats larva", "skin is loose"] %>
+
+To get the current get branch information: (default is false)
+
+    <%= ruby_badger(nil, true) %> # for default env text + git info
+    <%= ruby_badger(["eats larva", "skin is loose"], true) %> # for custom text + git info
 
 Add the require for the css in your application.css (using Rails 3.1 sprockets awesomeness):
 
