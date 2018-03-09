@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ruby_badger (4.2.2)
+    ruby_badger (4.2.3)
       rails (~> 4.2, >= 4.2)
 
 GEM
@@ -165,15 +165,15 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.8, >= 1.8)
-  capybara
-  factory_bot_rails
-  fuubar
+  capybara (~> 2.18.0, >= 2.18)
+  factory_bot_rails (~> 4.8.2, >= 4.8)
+  fuubar (~> 2.3.1, >= 2.3)
   jquery-rails
   rails
   rake (~> 12.3.0, >= 12.3)
-  rspec-rails
+  rspec-rails (~> 3.7.2, >= 3.7)
   ruby_badger!
-  sass-rails
+  sass-rails (~> 5.0.7, >= 5.0)
   sqlite3
 
 BUNDLED WITH
