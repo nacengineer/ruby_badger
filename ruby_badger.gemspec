@@ -25,11 +25,11 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency     "rails",   '~> 4.2', '>= 4.2'
 
   spec.add_development_dependency "bundler", '~> 1.8', ">= 1.8"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", '~> 12.3.0', ">= 12.3"
 
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'capybara'
-  spec.add_development_dependency 'factory_girl_rails'
+  spec.add_development_dependency 'factory_bot_rails'
   spec.add_development_dependency 'fuubar'
   spec.add_development_dependency 'sass-rails'
 
