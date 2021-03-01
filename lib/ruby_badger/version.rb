@@ -1,3 +1,3 @@
 module RubyBadger
-  VERSION = "4.2.3"
+  VERSION = "10.0"
 end
